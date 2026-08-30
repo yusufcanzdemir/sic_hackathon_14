@@ -1,121 +1,151 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "user_id": "anon_01",
-  "generated_at": "2026-08-29T09:19:29.030310+00:00",
+  "generated_at": "2026-08-30T10:35:38.616424+00:00",
   "attention": {
-    "total_views": 841,
-    "unique_accounts": 35,
-    "night_ratio": 0.201,
+    "total_posts": 60,
+    "unique_accounts": 18,
+    "night_ratio": 0.25,
     "peak_hour": 22,
     "top_hours": [
       {
         "hour": 22,
-        "views": 109
+        "posts": 8
       },
       {
-        "hour": 21,
-        "views": 83
-      },
-      {
-        "hour": 23,
-        "views": 79
-      }
-    ]
-  },
-  "intent": {
-    "sessions_count": 51,
-    "median_gap_minutes": 21,
-    "mean_gap_minutes": 23.1,
-    "worst_session": {
-      "app": "tiktok",
-      "stated_intent": "sadece bakıyordum",
-      "intended_minutes": 10,
-      "actual_minutes": 79,
-      "opened_at": "2026-08-21T16:45:00+00:00"
-    },
-    "gap_by_app": {
-      "instagram": 21.4,
-      "tiktok": 24.6,
-      "youtube": 22.8
-    },
-    "worst_hours": [
-      {
-        "hour": 16,
-        "mean_gap_minutes": 41
+        "hour": 0,
+        "posts": 6
       },
       {
         "hour": 18,
-        "mean_gap_minutes": 32.7
-      },
-      {
-        "hour": 8,
-        "mean_gap_minutes": 32
+        "posts": 6
       }
-    ],
-    "most_common_intent": "sadece bakıyordum"
+    ]
   },
-  "interests": [
-    "Fitness",
-    "Moda",
-    "Seyahat",
-    "Yemek tarifleri",
-    "Teknoloji",
-    "Kişisel gelişim",
-    "Uyku",
-    "Kariyer"
+  "top_hashtags": [
+    {
+      "tag": "muzik",
+      "count": 10
+    },
+    {
+      "tag": "gitar",
+      "count": 9
+    },
+    {
+      "tag": "akor",
+      "count": 9
+    },
+    {
+      "tag": "rutin",
+      "count": 6
+    },
+    {
+      "tag": "ciltbakimi",
+      "count": 5
+    },
+    {
+      "tag": "guzellik",
+      "count": 5
+    },
+    {
+      "tag": "seramik",
+      "count": 5
+    },
+    {
+      "tag": "elemegi",
+      "count": 5
+    },
+    {
+      "tag": "atolye",
+      "count": 5
+    },
+    {
+      "tag": "kamp",
+      "count": 5
+    }
   ],
-  "top_accounts": [
+  "ornek_gonderiler": [
     {
-      "account_hash": "acc_247dbf05",
-      "view_count": 31,
-      "category": null
+      "title": "Sonbahar Renk Paleti",
+      "hashtags": [
+        "moda",
+        "stil",
+        "sonbahar"
+      ],
+      "viewed_at": "2026-08-29T19:59:00+00:00"
     },
     {
-      "account_hash": "acc_17a95f50",
-      "view_count": 31,
-      "category": null
+      "title": "Cilt Bakımında Sıra Önemli",
+      "hashtags": [
+        "ciltbakimi",
+        "guzellik",
+        "rutin"
+      ],
+      "viewed_at": "2026-08-26T20:11:00+00:00"
     },
     {
-      "account_hash": "acc_f9208c96",
-      "view_count": 31,
-      "category": null
+      "title": "Fırında Tavuk Nasıl Yapılır",
+      "hashtags": [
+        "yemektarifi",
+        "firindatavuk",
+        "aksamyemegi"
+      ],
+      "viewed_at": "2026-08-25T23:28:00+00:00"
     },
     {
-      "account_hash": "acc_bbaccd25",
-      "view_count": 30,
-      "category": null
+      "title": "20 Dakikada Pratik Akşam Yemeği Tarifi",
+      "hashtags": [
+        "tarifler",
+        "pratikyemek",
+        "mutfaktanhaberler"
+      ],
+      "viewed_at": "2026-08-28T17:28:00+00:00"
     },
     {
-      "account_hash": "acc_f9f18df5",
-      "view_count": 29,
-      "category": null
+      "title": "Suluboyada Gökyüzü Geçişi",
+      "hashtags": [
+        "suluboya",
+        "resim",
+        "sanat"
+      ],
+      "viewed_at": "2026-08-22T23:59:00+00:00"
     },
     {
-      "account_hash": "acc_0c1297ef",
-      "view_count": 29,
-      "category": null
+      "title": "Seramikte İlk Denemem",
+      "hashtags": [
+        "seramik",
+        "elemegi",
+        "atolye"
+      ],
+      "viewed_at": "2026-08-16T01:49:00+00:00"
     },
     {
-      "account_hash": "acc_532352c4",
-      "view_count": 29,
-      "category": null
+      "title": "Gitarda Bu Akoru Kaçırmayın",
+      "hashtags": [
+        "gitar",
+        "muzik",
+        "akor"
+      ],
+      "viewed_at": "2026-08-19T23:03:00+00:00"
     },
     {
-      "account_hash": "acc_78f86a3d",
-      "view_count": 28,
-      "category": null
+      "title": "Gitarda Bu Akoru Kaçırmayın",
+      "hashtags": [
+        "gitar",
+        "muzik",
+        "akor"
+      ],
+      "viewed_at": "2026-08-28T21:21:00+00:00"
     }
   ],
   "flags": [
     "gece_agirlikli_kullanim",
     "yatis_oncesi_yogunlasma",
-    "dar_hesap_dongusu",
-    "niyet_farki_yuksek",
-    "tek_oturum_asiri_uzun"
+    "tek_temada_yogunlasma"
   ],
   "notes": [
     "Bütün sayısal değerler kodda hesaplandı; model hesap yapmamalı.",
-    "Hesap adları rumuzlanmıştır.",
+    "Hesap adları rumuzlanmıştır, açık kullanıcı adı yoktur.",
     "Bu özet teşhis değildir; yalnızca kullanım desenidir."
   ]
 }
