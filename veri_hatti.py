@@ -1,4 +1,4 @@
-import json, hashlib, random, statistics, re
+import json, hashlib, random, statistics, re, os
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 
@@ -125,14 +125,24 @@ def sinyal_kur(p):
 
 profil=profil_kur(HAM_KAYITLAR,"sentetik_instagram_kayitli")
 sinyaller=sinyal_kur(profil)
-for ad,veri in [("profile.json",profil),("signals.json",sinyaller)]:
-    with open(ad,"w",encoding="utf-8") as f: json.dump(veri,f,ensure_ascii=False,indent=2)
-    print("yazıldı:",ad)
+os.makedirs("data", exist_ok=True)
+
+for ad, veri in [
+    ("profile.json", profil),
+    ("signals.json", sinyaller)
+]:
+    dosya_yolu = os.path.join("data", ad)
+
+    with open(dosya_yolu, "w", encoding="utf-8") as f:
+        json.dump(veri, f, ensure_ascii=False, indent=2)
+
+    print("yazıldı:", dosya_yolu)
 
 def kontrol_et():
     hata,uyari=[],[]
     rumuz=re.compile(r"^acc_[0-9a-f]{8}$")
-    p=json.load(open("profile.json",encoding="utf-8")); g=json.load(open("signals.json",encoding="utf-8"))
+    p = json.load(open(os.path.join("data", "profile.json"), encoding="utf-8"))
+    g = json.load(open(os.path.join("data", "signals.json"), encoding="utf-8"))
     for a in ["schema_version","user_id","posts","top_hashtags","top_accounts",
               "hourly_distribution","summary","data_notes"]:
         if a not in p: hata.append(f"profile.json: '{a}' eksik")
