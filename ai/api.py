@@ -10,7 +10,7 @@ load_dotenv()
 API_KEY = os.getenv("GEMINI_API_KEY")
 
 if not API_KEY:
-    raise ValueError("GEMINI_API_KEY bulunamadı! Lütfen .env dosyasını kontrol edin.")
+    raise ValueError("GEMINI_API_KEY not found! Please check your .env file.")
 
 client = genai.Client(api_key=API_KEY)
 MODEL_ADI = "gemini-3.5-flash"
@@ -20,11 +20,12 @@ DUSUK_THINKING_CONFIG = types.GenerateContentConfig(
 )
 
 def statik_analiz_uret(veri, tercihler):
-    butce_durumu = "ücretsiz" if tercihler.get("butce_tipi") == "Tamamen Ücretsiz" else "bütçe dostu"
+    butce_durumu = "completely free" if tercihler.get("butce_tipi") == "Completely Free" else "budget-friendly"
+    sosyal = tercihler.get('sosyal_ortam', 'solo').lower()
     
     return {
-        "bulgu": "Sistem (Çevrimdışı Mod): Gece geç saatlerde yoğun bir ekran kullanımınız tespit edildi.",
-        "eylem": f"Tercihlerinize uygun olarak, {tercihler.get('sosyal_ortam', 'bireysel')} yapabileceğiniz {butce_durumu} bir etkinlik planlayın."
+        "bulgu": "System (Offline Mode): Heavy screen usage detected late at night.",
+        "eylem": f"According to your preferences, plan a {butce_durumu} activity you can do {sosyal}."
     }
 
 def _ozetle(veri):
@@ -73,8 +74,8 @@ def _ozetle(veri):
         ],
         "flags": b,
         "notes": [
-            "Bütün sayısal değerler kodda hesaplandı; model hesap yapmamalı.",
-            "Bu özet teşhis değildir; yalnızca kullanım desenidir."
+            "All numeric values were calculated in the code; the model should not perform calculations.",
+            "This summary is not a diagnosis; it is solely a usage pattern."
         ]
     }
 
@@ -84,7 +85,7 @@ def _json_ayikla(metin):
 def ai_analiz_sohbeti_baslat(json_verisi, tercihler):
     """İlk analizi yapar ve sohbet geçmişini döndürür."""
     try:
-        butce_metni = f"Maksimum {tercihler['butce_miktari']} TL" if tercihler['butce_tipi'] == "Ücretli / Bütçe Belirle" else "Tamamen Ücretsiz"
+        butce_metni = f"Maximum {tercihler['butce_miktari']} TRY" if tercihler['butce_tipi'] == "Paid / Set a Budget" else "Completely Free"
 
         hazir_prompt = ANALIZ_PROMPTU.format(
             sosyal_ortam=tercihler['sosyal_ortam'],
@@ -98,25 +99,25 @@ def ai_analiz_sohbeti_baslat(json_verisi, tercihler):
         analiz_sonucu = json.loads(_json_ayikla(response.text))
         return analiz_sonucu, chat.get_history()
     except Exception as e:
-        print(f"[FALLBACK DEVREDE] Analiz API Hatası: {e}")
+        print(f"[FALLBACK TRIGGERED] Analysis API Error: {e}")
         return statik_analiz_uret(json_verisi, tercihler), []
 
 def ai_analizi_revize_et(chat_history, kullanici_mesaji):
     """Mevcut hafızayı kullanarak yeni öneri ister."""
     try:
         chat = client.chats.create(model=MODEL_ADI, history=chat_history, config=DUSUK_THINKING_CONFIG)
-        istek_promptu = f"Önceki eylem önerini şu sebeple beğenmedim: '{kullanici_mesaji}'. Lütfen sadece EYLEM kısmını değiştirerek, benim geri bildirimi dikkate alarak bana YENİ BİR ÖNERİ sun. Yanıtını yine SADECE JSON formatında ver."
+        istek_promptu = f"I didn't like your previous action recommendation for this reason: '{kullanici_mesaji}'. Please provide a NEW RECOMMENDATION by changing ONLY the ACTION (eylem) part, taking my feedback into account. Provide your response ONLY in JSON format again."
 
         response = chat.send_message(istek_promptu)
         yeni_analiz = json.loads(_json_ayikla(response.text))
         return yeni_analiz, chat.get_history()
     except Exception as e:
-        return {"bulgu": "Hata", "eylem": f"Revize edilemedi: {e}"}, chat_history
+        return {"bulgu": "Error", "eylem": f"Could not be revised: {e}"}, chat_history
 
 def ai_takvim_cagrisi(json_verisi, secilen_analiz=None):
     """21 günlük takvimi üretir."""
     try:
-        secilen_eylem = (secilen_analiz or {}).get("eylem", "Genel ekran süresi azaltma")
+        secilen_eylem = (secilen_analiz or {}).get("eylem", "General screen time reduction")
         hazir_prompt = TAKVIM_PROMPTU.format(
             secilen_eylem=secilen_eylem,
             signals_data=json.dumps(_ozetle(json_verisi), ensure_ascii=False),
@@ -132,4 +133,4 @@ def ai_takvim_cagrisi(json_verisi, secilen_analiz=None):
 
         return takvim
     except Exception as e:
-        return [{"faz": "Hata", "gun": 21, "h": f"Takvim oluşturulamadı: {e}", "kh": "Denge", "r": "#008751"}]
+        return [{"faz": "Error", "gun": 21, "h": f"Calendar could not be generated: {e}", "kh": "Balance", "r": "#008751"}]

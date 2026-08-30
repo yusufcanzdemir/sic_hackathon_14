@@ -8,27 +8,28 @@ def hashla(ad):
     return "acc_" + hashlib.sha256((TUZ+str(ad).lower().strip()).encode()).hexdigest()[:8]
 def simdi(): return datetime.now(timezone.utc).isoformat()
 
+# İçerikler İngilizceye çevrildi
 HAVUZ = [
- ("20 Dakikada Pratik Akşam Yemeği Tarifi","Bugün mutfakta 20 dakikada hazırlanan bir tarif var 😍 Malzemeler basit, sonuç inanılmaz lezzetli!",["tarifler","pratikyemek","mutfaktanhaberler"],"lezzetlidakikalar","Elif Şahin"),
- ("Fırında Tavuk Nasıl Yapılır","Marine etmenin püf noktası bu 👇 Bir gece bekletirseniz fark yaratıyor",["yemektarifi","firindatavuk","aksamyemegi"],"mutfakgunlugu","Seda Aydın"),
- ("Evde 15 Dakikalık Antrenman","Ekipman yok, bahane yok. Haftada 4 gün bu rutini uygula",["evdespor","antrenman","fitnessmotivasyon"],"hareketzamani","Kaan Yıldırım"),
- ("Koşuya Yeni Başlayanlar İçin","İlk ay hız değil süre hedefleyin. Vücut adaptasyonu böyle oluyor",["kosu","yenibaslayanlar","dayaniklilik"],"asfaltnotlari","Merve Tunç"),
- ("Karadeniz Yaylalarında 3 Gün","Sisin içinden çıkan o manzarayı unutamıyorum ⛰️",["gezi","karadeniz","yayla"],"rotadefteri","Onur Kaplan"),
- ("Lizbon'da Bütçe Dostu Rehber","Tramvaya binmeden önce bu kartı alın, yarı fiyatına geziyorsunuz",["seyahat","lizbon","butcedostu"],"pasaportvekamera","Zeynep Arı"),
- ("Gitarda Bu Akoru Kaçırmayın","Tek parmak değişimiyle şarkının tamamı açılıyor 🎸",["gitar","muzik","akor"],"tellerinardinda","Berk Şen"),
- ("Vinil mi Dijital mi","Analog sesin farkını kulaklıkla bile duyabiliyorsunuz",["muzik","vinil","plak"],"platakayit","Deniz Ulu"),
- ("Suluboyada Gökyüzü Geçişi","Kağıdı ıslatmadan önce açıyı ayarlamak çok önemli 🎨",["suluboya","resim","sanat"],"firca_ve_kagit","Ece Demir"),
- ("Seramikte İlk Denemem","Çarkta merkezleme sandığımdan zormuş ama bağımlılık yapıyor",["seramik","elemegi","atolye"],"camurdanmasal","Ali Korkmaz"),
- ("Python'da Liste Kavrama","Tek satırda döngü yazmanın en temiz yolu bu",["python","yazilim","kodlama"],"kodnotlari","Cem Aksoy"),
- ("Yapay Zeka Nasıl Öğreniyor","Model aslında ezberlemiyor, örüntü çıkarıyor. Farkı bu videoda anlattım",["yapayzeka","teknoloji","egitim"],"veriyoluyla","Nil Ergün"),
- ("Yeni Telefonun Pil Testi","24 saatlik kullanımda beklediğimden iyi çıktı 🔋",["teknoloji","telefon","inceleme"],"teknokutu","Umut Bal"),
- ("Bu Oyunun Sonu Tartışılır","Final sahnesini üçüncü kez izledim, hâlâ aynı fikirdeyim 🎮",["oyun","gaming","inceleme"],"konsolgunlugu","Barış Ay"),
- ("Sonbahar Renk Paleti","Bu üç rengi bir arada kullanınca her kombin oturuyor",["moda","stil","sonbahar"],"dolapdefteri","İpek Yalçın"),
- ("Cilt Bakımında Sıra Önemli","Serumdan önce nemlendirici sürerseniz etkisi düşüyor ✨",["ciltbakimi","guzellik","rutin"],"aynakarsisi","Selin Ok"),
- ("Bu Diziyi Bitirdim","Son bölüm beklediğim gibi değildi ama yolculuk güzeldi",["dizi","eglence","izlenenler"],"ekranaltinda","Kerem Doğan"),
- ("Ders Çalışırken Odaklanma","25 dakika çalış 5 dakika dinlen. Basit ama işe yarıyor 📚",["egitim","calisma","verimlilik"],"defterkenari","Ayça Bozkurt"),
- ("Sabah Rutinimi Değiştirdim","Telefonu yatak odasından çıkarmak en zor kısmıydı",["yasam","rutin","aliskanlik"],"gunlukdenge","Tolga Ersoy"),
- ("Arkadaşlarla Kamp Notları","Çadır kurmayı öğrenmek bir akşamı kurtarıyor 🔥",["kamp","doga","arkadaslik"],"acikhavada","Sude Kara"),
+ ("20-Minute Quick Dinner Recipe","Today in the kitchen there is a recipe ready in 20 minutes 😍 Ingredients are simple, the result is incredibly delicious!",["recipes","quickmeal","kitchennews"],"tastyminutes","Elif Sahin"),
+ ("How to Make Baked Chicken","The trick to marinating is this 👇 Waiting overnight makes a difference",["recipe","bakedchicken","dinner"],"kitchenjournal","Seda Aydin"),
+ ("15-Minute Home Workout","No equipment, no excuses. Do this routine 4 days a week",["homeworkout","training","fitnessmotivation"],"time2move","Kaan Yildirim"),
+ ("For Beginner Runners","Aim for time, not speed in the first month. That's how the body adapts",["running","beginners","endurance"],"asphaltnotes","Merve Tunc"),
+ ("3 Days in the Black Sea Highlands","I can't forget that view emerging from the fog ⛰️",["travel","blacksea","highlands"],"routebook","Onur Kaplan"),
+ ("Budget-Friendly Guide to Lisbon","Get this card before taking the tram, you travel for half price",["travel","lisbon","budgetfriendly"],"passportandcamera","Zeynep Ari"),
+ ("Don't Miss This Chord on Guitar","The whole song unlocks with a single finger change 🎸",["guitar","music","chord"],"behindthestrings","Berk Sen"),
+ ("Vinyl or Digital","You can hear the difference of analog sound even with headphones",["music","vinyl","record"],"recordplay","Deniz Ulu"),
+ ("Sky Transition in Watercolor","Setting the angle before wetting the paper is crucial 🎨",["watercolor","painting","art"],"brush_and_paper","Ece Demir"),
+ ("My First Try in Ceramics","Centering on the wheel was harder than I thought but it's addictive",["ceramics","handmade","workshop"],"claytale","Ali Korkmaz"),
+ ("List Comprehension in Python","This is the cleanest way to write a loop in a single line",["python","software","coding"],"codenotes","Cem Aksoy"),
+ ("How AI Learns","The model doesn't actually memorize, it extracts patterns. I explained the difference in this video",["ai","technology","education"],"datapath","Nil Ergun"),
+ ("New Phone's Battery Test","It turned out better than I expected in 24-hour usage 🔋",["technology","phone","review"],"techbox","Umut Bal"),
+ ("The End of This Game is Debatable","I watched the final scene for the third time, I still hold the same opinion 🎮",["gaming","game","review"],"consolediary","Baris Ay"),
+ ("Autumn Color Palette","When you use these three colors together, every outfit fits",["fashion","style","autumn"],"closetdiary","Ipek Yalcin"),
+ ("Order Matters in Skincare","If you apply moisturizer before serum, its effect drops ✨",["skincare","beauty","routine"],"mirrorface","Selin Ok"),
+ ("I Finished This Series","The final episode wasn't what I expected but the journey was beautiful",["series","entertainment","watched"],"underscreen","Kerem Dogan"),
+ ("Focusing While Studying","Work 25 mins rest 5 mins. Simple but effective 📚",["education","study","productivity"],"notebookedge","Ayca Bozkurt"),
+ ("I Changed My Morning Routine","Getting the phone out of the bedroom was the hardest part",["life","routine","habit"],"dailybalance","Tolga Ersoy"),
+ ("Camping Notes with Friends","Learning to pitch a tent saves the evening 🔥",["camping","nature","friendship"],"outdoors","Sude Kara"),
 ]
 
 def kayit_uret(sayi=60):
@@ -43,17 +44,17 @@ def kayit_uret(sayi=60):
         liste.append({
           "timestamp": int(an.timestamp()), "media": [],
           "label_values": [
-            {"label":"İnternet Adresi (URL)","value":f"https://www.instagram.com/reel/C{r.randint(10**9,10**10)}/",
+            {"label":"Web Address (URL)","value":f"https://www.instagram.com/reel/C{r.randint(10**9,10**10)}/",
              "href":f"https://www.instagram.com/reel/C{r.randint(10**9,10**10)}/"},
-            {"label":"Açıklama","value":acik},
-            {"label":"Başlık","value":baslik},
-            {"dict":[{"dict":[{"label":"Ad","value":e}],"title":""} for e in etiketler],
-             "title":"Konu etiketleri"},
+            {"label":"Caption","value":acik},
+            {"label":"Title","value":baslik},
+            {"dict":[{"dict":[{"label":"Name","value":e}],"title":""} for e in etiketler],
+             "title":"Hashtags"},
             {"dict":[{"dict":[
-               {"label":"İnternet Adresi (URL)","value":f"https://www.instagram.com/{kadi}/"},
-               {"label":"Ad","value":isim},
-               {"label":"Kullanıcı adı","value":kadi}],"title":""}],"title":"Sahibi"},
-            {"dict":[],"title":"Marka ortağı"}],
+               {"label":"Web Address (URL)","value":f"https://www.instagram.com/{kadi}/"},
+               {"label":"Name","value":isim},
+               {"label":"Username","value":kadi}],"title":""}],"title":"Owner"},
+            {"dict":[],"title":"Brand partner"}],
           "fbid": str(r.randint(10**16,10**17))})
     return liste
 
@@ -64,16 +65,16 @@ def kayit_coz(kayit):
            "viewed_at":datetime.fromtimestamp(kayit["timestamp"],tz=timezone.utc).isoformat()}
     for blok in kayit.get("label_values",[]):
         etiket=blok.get("label"); baslik=blok.get("title")
-        if etiket=="Açıklama": cikti["caption"]=blok.get("value")
-        elif etiket=="Başlık": cikti["title"]=blok.get("value")
-        elif baslik=="Konu etiketleri":
+        if etiket=="Caption": cikti["caption"]=blok.get("value")
+        elif etiket=="Title": cikti["title"]=blok.get("value")
+        elif baslik=="Hashtags":
             for d in blok.get("dict",[]):
                 for ic in d.get("dict",[]):
-                    if ic.get("label")=="Ad": cikti["hashtags"].append(ic["value"])
-        elif baslik=="Sahibi":
+                    if ic.get("label")=="Name": cikti["hashtags"].append(ic["value"])
+        elif baslik=="Owner":
             for d in blok.get("dict",[]):
                 for ic in d.get("dict",[]):
-                    if ic.get("label")=="Kullanıcı adı":
+                    if ic.get("label")=="Username":
                         cikti["owner_hash"]=hashla(ic["value"])
     cikti["category"]=None
     return cikti
@@ -96,14 +97,16 @@ def profil_kur(kayitlar,kaynak):
         "unique_hashtags":len(etiketler),"night_ratio":round(gece/toplam,3),
         "peak_hour":max(saatler,key=saatler.get) if saatler else None},
       "data_notes":{"source":kaynak,"limitations":[
-        "Kayıtlar sentetiktir, gerçek kullanıcı verisi değildir.",
-        "Hesap adları SHA-256 ile rumuzlanmıştır.",
-        "category alanı boş; C dolduracak."]}}
+        "Records are synthetic, not real user data.",
+        "Account names are pseudonymized with SHA-256.",
+        "category field is empty; to be filled."]}
+    }
 
 def sinyal_kur(p):
     dag={int(s):n for s,n in p["hourly_distribution"].items()}
     sirali=sorted(dag.items(),key=lambda x:x[1],reverse=True)
     b=[]
+    # NOT: Bu bayrak string'lerini bozmamak için Türkçelerini koruduk, çünkü API bunları kontrol ediyor.
     if p["summary"]["night_ratio"]>=0.20: b.append("gece_agirlikli_kullanim")
     if (p["summary"]["peak_hour"] or 0)>=22: b.append("yatis_oncesi_yogunlasma")
     if p["summary"]["unique_accounts"] and p["summary"]["total_posts"]/p["summary"]["unique_accounts"]>4:
@@ -119,11 +122,11 @@ def sinyal_kur(p):
       "ornek_gonderiler":[{"title":g["title"],"hashtags":g["hashtags"],
         "viewed_at":g["viewed_at"]} for g in p["posts"][:8]],
       "flags":b,
-      "notes":["Bütün sayısal değerler kodda hesaplandı; model hesap yapmamalı.",
-               "Hesap adları rumuzlanmıştır, açık kullanıcı adı yoktur.",
-               "Bu özet teşhis değildir; yalnızca kullanım desenidir."]}
+      "notes":["All numeric values were calculated in code; model should not calculate.",
+               "Account names are pseudonymized, no plaintext usernames.",
+               "This summary is not a diagnosis; it's merely a usage pattern."]}
 
-profil=profil_kur(HAM_KAYITLAR,"sentetik_instagram_kayitli")
+profil=profil_kur(HAM_KAYITLAR,"synthetic_instagram_records")
 sinyaller=sinyal_kur(profil)
 os.makedirs("data", exist_ok=True)
 
@@ -136,7 +139,7 @@ for ad, veri in [
     with open(dosya_yolu, "w", encoding="utf-8") as f:
         json.dump(veri, f, ensure_ascii=False, indent=2)
 
-    print("yazıldı:", dosya_yolu)
+    print("Written:", dosya_yolu)
 
 def kontrol_et():
     hata,uyari=[],[]
@@ -145,31 +148,31 @@ def kontrol_et():
     g = json.load(open(os.path.join("data", "signals.json"), encoding="utf-8"))
     for a in ["schema_version","user_id","posts","top_hashtags","top_accounts",
               "hourly_distribution","summary","data_notes"]:
-        if a not in p: hata.append(f"profile.json: '{a}' eksik")
-    if len(p.get("hourly_distribution",{}))!=24: hata.append("profile.json: 24 saat olmalı")
+        if a not in p: hata.append(f"profile.json: '{a}' missing")
+    if len(p.get("hourly_distribution",{}))!=24: hata.append("profile.json: must be 24 hours")
     for h in p.get("top_accounts",[]):
         if not rumuz.match(str(h.get("account_hash",""))):
-            hata.append(f"profile.json: rumuzlanmamış hesap {h.get('account_hash')}"); break
+            hata.append(f"profile.json: unpseudonymized account {h.get('account_hash')}"); break
     for i,g2 in enumerate(p.get("posts",[])[:50]):
-        if not g2.get("title") or not g2.get("caption"): hata.append(f"posts[{i}]: başlık/açıklama boş")
+        if not g2.get("title") or not g2.get("caption"): hata.append(f"posts[{i}]: title/caption is empty")
         try: datetime.fromisoformat(g2["viewed_at"])
-        except Exception: hata.append(f"posts[{i}]: viewed_at ISO 8601 değil")
+        except Exception: hata.append(f"posts[{i}]: viewed_at is not ISO 8601")
     if any(x.get("category") is None for x in p.get("top_accounts",[])):
-        uyari.append("profile.json: category alanları boş (C dolduracak)")
+        uyari.append("profile.json: category fields are empty (to be filled)")
     metin=json.dumps([p,g],ensure_ascii=False)
-    if re.search(r"[\w\.-]+@[\w\.-]+\.\w+",metin): hata.append("MAHREMİYET: e-posta bulundu")
-    if re.search(r"instagram\.com/[A-Za-z0-9_.]{3,}/",metin): hata.append("MAHREMİYET: açık profil linki bulundu")
+    if re.search(r"[\w\.-]+@[\w\.-]+\.\w+",metin): hata.append("PRIVACY: email found")
+    if re.search(r"instagram\.com/[A-Za-z0-9_.]{3,}/",metin): hata.append("PRIVACY: plaintext profile link found")
     print("="*46)
-    for m in uyari: print("  UYARI ",m)
-    for m in hata: print("  HATA  ",m)
+    for m in uyari: print("  WARNING ",m)
+    for m in hata: print("  ERROR  ",m)
     print("="*46)
-    print(("BAŞARISIZ - " if hata else "GEÇTİ - ")+f"{len(hata)} hata, {len(uyari)} uyarı")
+    print(("FAILED - " if hata else "PASSED - ")+f"{len(hata)} errors, {len(uyari)} warnings")
 
-print("\ngönderi:",profil["summary"]["total_posts"],
-      "| hesap:",profil["summary"]["unique_accounts"],
-      "| gece oranı:",profil["summary"]["night_ratio"],
-      "| yoğun saat:",profil["summary"]["peak_hour"])
-print("en çok etiket:",", ".join(t["tag"] for t in profil["top_hashtags"][:5]))
-print("bayraklar:",", ".join(sinyaller["flags"]))
+print("\nPosts:",profil["summary"]["total_posts"],
+      "| Accounts:",profil["summary"]["unique_accounts"],
+      "| Night Ratio:",profil["summary"]["night_ratio"],
+      "| Peak Hour:",profil["summary"]["peak_hour"])
+print("Top hashtags:",", ".join(t["tag"] for t in profil["top_hashtags"][:5]))
+print("Flags:",", ".join(sinyaller["flags"]))
 print()
 kontrol_et()

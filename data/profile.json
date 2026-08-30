@@ -1,879 +1,879 @@
 {
   "schema_version": "1.1",
   "user_id": "anon_01",
-  "generated_at": "2026-08-30T11:26:52.371744+00:00",
+  "generated_at": "2026-08-30T15:17:06.657051+00:00",
   "posts": [
     {
-      "caption": "Bu üç rengi bir arada kullanınca her kombin oturuyor",
-      "title": "Sonbahar Renk Paleti",
+      "caption": "When you use these three colors together, every outfit fits",
+      "title": "Autumn Color Palette",
       "hashtags": [
-        "moda",
-        "stil",
-        "sonbahar"
+        "fashion",
+        "style",
+        "autumn"
       ],
-      "owner_hash": "acc_389e7684",
+      "owner_hash": "acc_d3894090",
       "viewed_at": "2026-08-29T19:59:00+00:00",
       "category": null
     },
     {
-      "caption": "Serumdan önce nemlendirici sürerseniz etkisi düşüyor ✨",
-      "title": "Cilt Bakımında Sıra Önemli",
+      "caption": "If you apply moisturizer before serum, its effect drops ✨",
+      "title": "Order Matters in Skincare",
       "hashtags": [
-        "ciltbakimi",
-        "guzellik",
-        "rutin"
+        "skincare",
+        "beauty",
+        "routine"
       ],
-      "owner_hash": "acc_f7bff2ed",
+      "owner_hash": "acc_36e1ce32",
       "viewed_at": "2026-08-26T20:11:00+00:00",
       "category": null
     },
     {
-      "caption": "Marine etmenin püf noktası bu 👇 Bir gece bekletirseniz fark yaratıyor",
-      "title": "Fırında Tavuk Nasıl Yapılır",
+      "caption": "The trick to marinating is this 👇 Waiting overnight makes a difference",
+      "title": "How to Make Baked Chicken",
       "hashtags": [
-        "yemektarifi",
-        "firindatavuk",
-        "aksamyemegi"
+        "recipe",
+        "bakedchicken",
+        "dinner"
       ],
-      "owner_hash": "acc_89101e1e",
+      "owner_hash": "acc_ef77a2d6",
       "viewed_at": "2026-08-25T23:28:00+00:00",
       "category": null
     },
     {
-      "caption": "Bugün mutfakta 20 dakikada hazırlanan bir tarif var 😍 Malzemeler basit, sonuç inanılmaz lezzetli!",
-      "title": "20 Dakikada Pratik Akşam Yemeği Tarifi",
+      "caption": "Today in the kitchen there is a recipe ready in 20 minutes 😍 Ingredients are simple, the result is incredibly delicious!",
+      "title": "20-Minute Quick Dinner Recipe",
       "hashtags": [
-        "tarifler",
-        "pratikyemek",
-        "mutfaktanhaberler"
+        "recipes",
+        "quickmeal",
+        "kitchennews"
       ],
-      "owner_hash": "acc_f92c42a8",
+      "owner_hash": "acc_62316ba0",
       "viewed_at": "2026-08-28T17:28:00+00:00",
       "category": null
     },
     {
-      "caption": "Kağıdı ıslatmadan önce açıyı ayarlamak çok önemli 🎨",
-      "title": "Suluboyada Gökyüzü Geçişi",
+      "caption": "Setting the angle before wetting the paper is crucial 🎨",
+      "title": "Sky Transition in Watercolor",
       "hashtags": [
-        "suluboya",
-        "resim",
-        "sanat"
+        "watercolor",
+        "painting",
+        "art"
       ],
-      "owner_hash": "acc_384a9fcd",
+      "owner_hash": "acc_1c9add12",
       "viewed_at": "2026-08-22T23:59:00+00:00",
       "category": null
     },
     {
-      "caption": "Çarkta merkezleme sandığımdan zormuş ama bağımlılık yapıyor",
-      "title": "Seramikte İlk Denemem",
+      "caption": "Centering on the wheel was harder than I thought but it's addictive",
+      "title": "My First Try in Ceramics",
       "hashtags": [
-        "seramik",
-        "elemegi",
-        "atolye"
+        "ceramics",
+        "handmade",
+        "workshop"
       ],
-      "owner_hash": "acc_466bae74",
+      "owner_hash": "acc_3affc5eb",
       "viewed_at": "2026-08-16T01:49:00+00:00",
       "category": null
     },
     {
-      "caption": "Tek parmak değişimiyle şarkının tamamı açılıyor 🎸",
-      "title": "Gitarda Bu Akoru Kaçırmayın",
+      "caption": "The whole song unlocks with a single finger change 🎸",
+      "title": "Don't Miss This Chord on Guitar",
       "hashtags": [
-        "gitar",
-        "muzik",
-        "akor"
+        "guitar",
+        "music",
+        "chord"
       ],
-      "owner_hash": "acc_b69784dc",
+      "owner_hash": "acc_e2454f2b",
       "viewed_at": "2026-08-19T23:03:00+00:00",
       "category": null
     },
     {
-      "caption": "Tek parmak değişimiyle şarkının tamamı açılıyor 🎸",
-      "title": "Gitarda Bu Akoru Kaçırmayın",
+      "caption": "The whole song unlocks with a single finger change 🎸",
+      "title": "Don't Miss This Chord on Guitar",
       "hashtags": [
-        "gitar",
-        "muzik",
-        "akor"
+        "guitar",
+        "music",
+        "chord"
       ],
-      "owner_hash": "acc_b69784dc",
+      "owner_hash": "acc_e2454f2b",
       "viewed_at": "2026-08-28T21:21:00+00:00",
       "category": null
     },
     {
-      "caption": "İlk ay hız değil süre hedefleyin. Vücut adaptasyonu böyle oluyor",
-      "title": "Koşuya Yeni Başlayanlar İçin",
+      "caption": "Aim for time, not speed in the first month. That's how the body adapts",
+      "title": "For Beginner Runners",
       "hashtags": [
-        "kosu",
-        "yenibaslayanlar",
-        "dayaniklilik"
+        "running",
+        "beginners",
+        "endurance"
       ],
-      "owner_hash": "acc_62176fac",
+      "owner_hash": "acc_40c0e3a8",
       "viewed_at": "2026-08-18T11:06:00+00:00",
       "category": null
     },
     {
-      "caption": "Tek parmak değişimiyle şarkının tamamı açılıyor 🎸",
-      "title": "Gitarda Bu Akoru Kaçırmayın",
+      "caption": "The whole song unlocks with a single finger change 🎸",
+      "title": "Don't Miss This Chord on Guitar",
       "hashtags": [
-        "gitar",
-        "muzik",
-        "akor"
+        "guitar",
+        "music",
+        "chord"
       ],
-      "owner_hash": "acc_b69784dc",
+      "owner_hash": "acc_e2454f2b",
       "viewed_at": "2026-08-23T18:46:00+00:00",
       "category": null
     },
     {
-      "caption": "Tek parmak değişimiyle şarkının tamamı açılıyor 🎸",
-      "title": "Gitarda Bu Akoru Kaçırmayın",
+      "caption": "The whole song unlocks with a single finger change 🎸",
+      "title": "Don't Miss This Chord on Guitar",
       "hashtags": [
-        "gitar",
-        "muzik",
-        "akor"
+        "guitar",
+        "music",
+        "chord"
       ],
-      "owner_hash": "acc_b69784dc",
+      "owner_hash": "acc_e2454f2b",
       "viewed_at": "2026-08-16T12:51:00+00:00",
       "category": null
     },
     {
-      "caption": "Çadır kurmayı öğrenmek bir akşamı kurtarıyor 🔥",
-      "title": "Arkadaşlarla Kamp Notları",
+      "caption": "Learning to pitch a tent saves the evening 🔥",
+      "title": "Camping Notes with Friends",
       "hashtags": [
-        "kamp",
-        "doga",
-        "arkadaslik"
+        "camping",
+        "nature",
+        "friendship"
       ],
-      "owner_hash": "acc_18230bd9",
+      "owner_hash": "acc_64cd6d3e",
       "viewed_at": "2026-08-26T19:02:00+00:00",
       "category": null
     },
     {
-      "caption": "Çadır kurmayı öğrenmek bir akşamı kurtarıyor 🔥",
-      "title": "Arkadaşlarla Kamp Notları",
+      "caption": "Learning to pitch a tent saves the evening 🔥",
+      "title": "Camping Notes with Friends",
       "hashtags": [
-        "kamp",
-        "doga",
-        "arkadaslik"
+        "camping",
+        "nature",
+        "friendship"
       ],
-      "owner_hash": "acc_18230bd9",
+      "owner_hash": "acc_64cd6d3e",
       "viewed_at": "2026-08-21T22:24:00+00:00",
       "category": null
     },
     {
-      "caption": "Çadır kurmayı öğrenmek bir akşamı kurtarıyor 🔥",
-      "title": "Arkadaşlarla Kamp Notları",
+      "caption": "Learning to pitch a tent saves the evening 🔥",
+      "title": "Camping Notes with Friends",
       "hashtags": [
-        "kamp",
-        "doga",
-        "arkadaslik"
+        "camping",
+        "nature",
+        "friendship"
       ],
-      "owner_hash": "acc_18230bd9",
+      "owner_hash": "acc_64cd6d3e",
       "viewed_at": "2026-08-21T15:29:00+00:00",
       "category": null
     },
     {
-      "caption": "Çarkta merkezleme sandığımdan zormuş ama bağımlılık yapıyor",
-      "title": "Seramikte İlk Denemem",
+      "caption": "Centering on the wheel was harder than I thought but it's addictive",
+      "title": "My First Try in Ceramics",
       "hashtags": [
-        "seramik",
-        "elemegi",
-        "atolye"
+        "ceramics",
+        "handmade",
+        "workshop"
       ],
-      "owner_hash": "acc_466bae74",
+      "owner_hash": "acc_3affc5eb",
       "viewed_at": "2026-08-19T22:15:00+00:00",
       "category": null
     },
     {
-      "caption": "Ekipman yok, bahane yok. Haftada 4 gün bu rutini uygula",
-      "title": "Evde 15 Dakikalık Antrenman",
+      "caption": "No equipment, no excuses. Do this routine 4 days a week",
+      "title": "15-Minute Home Workout",
       "hashtags": [
-        "evdespor",
-        "antrenman",
-        "fitnessmotivasyon"
+        "homeworkout",
+        "training",
+        "fitnessmotivation"
       ],
-      "owner_hash": "acc_308fc658",
+      "owner_hash": "acc_d466545a",
       "viewed_at": "2026-08-22T00:06:00+00:00",
       "category": null
     },
     {
-      "caption": "Kağıdı ıslatmadan önce açıyı ayarlamak çok önemli 🎨",
-      "title": "Suluboyada Gökyüzü Geçişi",
+      "caption": "Setting the angle before wetting the paper is crucial 🎨",
+      "title": "Sky Transition in Watercolor",
       "hashtags": [
-        "suluboya",
-        "resim",
-        "sanat"
+        "watercolor",
+        "painting",
+        "art"
       ],
-      "owner_hash": "acc_384a9fcd",
+      "owner_hash": "acc_1c9add12",
       "viewed_at": "2026-08-22T22:38:00+00:00",
       "category": null
     },
     {
-      "caption": "Sisin içinden çıkan o manzarayı unutamıyorum ⛰️",
-      "title": "Karadeniz Yaylalarında 3 Gün",
+      "caption": "I can't forget that view emerging from the fog ⛰️",
+      "title": "3 Days in the Black Sea Highlands",
       "hashtags": [
-        "gezi",
-        "karadeniz",
-        "yayla"
+        "travel",
+        "blacksea",
+        "highlands"
       ],
-      "owner_hash": "acc_3f55e4e6",
+      "owner_hash": "acc_733c1408",
       "viewed_at": "2026-08-19T18:41:00+00:00",
       "category": null
     },
     {
-      "caption": "Kağıdı ıslatmadan önce açıyı ayarlamak çok önemli 🎨",
-      "title": "Suluboyada Gökyüzü Geçişi",
+      "caption": "Setting the angle before wetting the paper is crucial 🎨",
+      "title": "Sky Transition in Watercolor",
       "hashtags": [
-        "suluboya",
-        "resim",
-        "sanat"
+        "watercolor",
+        "painting",
+        "art"
       ],
-      "owner_hash": "acc_384a9fcd",
+      "owner_hash": "acc_1c9add12",
       "viewed_at": "2026-08-22T17:03:00+00:00",
       "category": null
     },
     {
-      "caption": "Sisin içinden çıkan o manzarayı unutamıyorum ⛰️",
-      "title": "Karadeniz Yaylalarında 3 Gün",
+      "caption": "I can't forget that view emerging from the fog ⛰️",
+      "title": "3 Days in the Black Sea Highlands",
       "hashtags": [
-        "gezi",
-        "karadeniz",
-        "yayla"
+        "travel",
+        "blacksea",
+        "highlands"
       ],
-      "owner_hash": "acc_3f55e4e6",
+      "owner_hash": "acc_733c1408",
       "viewed_at": "2026-08-17T15:57:00+00:00",
       "category": null
     },
     {
-      "caption": "Serumdan önce nemlendirici sürerseniz etkisi düşüyor ✨",
-      "title": "Cilt Bakımında Sıra Önemli",
+      "caption": "If you apply moisturizer before serum, its effect drops ✨",
+      "title": "Order Matters in Skincare",
       "hashtags": [
-        "ciltbakimi",
-        "guzellik",
-        "rutin"
+        "skincare",
+        "beauty",
+        "routine"
       ],
-      "owner_hash": "acc_f7bff2ed",
+      "owner_hash": "acc_36e1ce32",
       "viewed_at": "2026-08-21T21:02:00+00:00",
       "category": null
     },
     {
-      "caption": "Çarkta merkezleme sandığımdan zormuş ama bağımlılık yapıyor",
-      "title": "Seramikte İlk Denemem",
+      "caption": "Centering on the wheel was harder than I thought but it's addictive",
+      "title": "My First Try in Ceramics",
       "hashtags": [
-        "seramik",
-        "elemegi",
-        "atolye"
+        "ceramics",
+        "handmade",
+        "workshop"
       ],
-      "owner_hash": "acc_466bae74",
+      "owner_hash": "acc_3affc5eb",
       "viewed_at": "2026-08-21T07:04:00+00:00",
       "category": null
     },
     {
-      "caption": "Sisin içinden çıkan o manzarayı unutamıyorum ⛰️",
-      "title": "Karadeniz Yaylalarında 3 Gün",
+      "caption": "I can't forget that view emerging from the fog ⛰️",
+      "title": "3 Days in the Black Sea Highlands",
       "hashtags": [
-        "gezi",
-        "karadeniz",
-        "yayla"
+        "travel",
+        "blacksea",
+        "highlands"
       ],
-      "owner_hash": "acc_3f55e4e6",
+      "owner_hash": "acc_733c1408",
       "viewed_at": "2026-08-28T23:21:00+00:00",
       "category": null
     },
     {
-      "caption": "Final sahnesini üçüncü kez izledim, hâlâ aynı fikirdeyim 🎮",
-      "title": "Bu Oyunun Sonu Tartışılır",
+      "caption": "I watched the final scene for the third time, I still hold the same opinion 🎮",
+      "title": "The End of This Game is Debatable",
       "hashtags": [
-        "oyun",
         "gaming",
-        "inceleme"
+        "game",
+        "review"
       ],
-      "owner_hash": "acc_78615c25",
+      "owner_hash": "acc_969e9e7c",
       "viewed_at": "2026-08-28T00:31:00+00:00",
       "category": null
     },
     {
-      "caption": "Çadır kurmayı öğrenmek bir akşamı kurtarıyor 🔥",
-      "title": "Arkadaşlarla Kamp Notları",
+      "caption": "Learning to pitch a tent saves the evening 🔥",
+      "title": "Camping Notes with Friends",
       "hashtags": [
-        "kamp",
-        "doga",
-        "arkadaslik"
+        "camping",
+        "nature",
+        "friendship"
       ],
-      "owner_hash": "acc_18230bd9",
+      "owner_hash": "acc_64cd6d3e",
       "viewed_at": "2026-08-17T01:40:00+00:00",
       "category": null
     },
     {
-      "caption": "Son bölüm beklediğim gibi değildi ama yolculuk güzeldi",
-      "title": "Bu Diziyi Bitirdim",
+      "caption": "The final episode wasn't what I expected but the journey was beautiful",
+      "title": "I Finished This Series",
       "hashtags": [
-        "dizi",
-        "eglence",
-        "izlenenler"
+        "series",
+        "entertainment",
+        "watched"
       ],
-      "owner_hash": "acc_3bc8ea98",
+      "owner_hash": "acc_472397fc",
       "viewed_at": "2026-08-28T18:19:00+00:00",
       "category": null
     },
     {
-      "caption": "Serumdan önce nemlendirici sürerseniz etkisi düşüyor ✨",
-      "title": "Cilt Bakımında Sıra Önemli",
+      "caption": "If you apply moisturizer before serum, its effect drops ✨",
+      "title": "Order Matters in Skincare",
       "hashtags": [
-        "ciltbakimi",
-        "guzellik",
-        "rutin"
+        "skincare",
+        "beauty",
+        "routine"
       ],
-      "owner_hash": "acc_f7bff2ed",
+      "owner_hash": "acc_36e1ce32",
       "viewed_at": "2026-08-28T20:58:00+00:00",
       "category": null
     },
     {
-      "caption": "Sisin içinden çıkan o manzarayı unutamıyorum ⛰️",
-      "title": "Karadeniz Yaylalarında 3 Gün",
+      "caption": "I can't forget that view emerging from the fog ⛰️",
+      "title": "3 Days in the Black Sea Highlands",
       "hashtags": [
-        "gezi",
-        "karadeniz",
-        "yayla"
+        "travel",
+        "blacksea",
+        "highlands"
       ],
-      "owner_hash": "acc_3f55e4e6",
+      "owner_hash": "acc_733c1408",
       "viewed_at": "2026-08-26T20:33:00+00:00",
       "category": null
     },
     {
-      "caption": "Tek satırda döngü yazmanın en temiz yolu bu",
-      "title": "Python'da Liste Kavrama",
+      "caption": "This is the cleanest way to write a loop in a single line",
+      "title": "List Comprehension in Python",
       "hashtags": [
         "python",
-        "yazilim",
-        "kodlama"
+        "software",
+        "coding"
       ],
-      "owner_hash": "acc_93798ff3",
+      "owner_hash": "acc_fe3775bc",
       "viewed_at": "2026-08-22T20:12:00+00:00",
       "category": null
     },
     {
-      "caption": "Tek satırda döngü yazmanın en temiz yolu bu",
-      "title": "Python'da Liste Kavrama",
+      "caption": "This is the cleanest way to write a loop in a single line",
+      "title": "List Comprehension in Python",
       "hashtags": [
         "python",
-        "yazilim",
-        "kodlama"
+        "software",
+        "coding"
       ],
-      "owner_hash": "acc_93798ff3",
+      "owner_hash": "acc_fe3775bc",
       "viewed_at": "2026-08-19T07:31:00+00:00",
       "category": null
     },
     {
-      "caption": "İlk ay hız değil süre hedefleyin. Vücut adaptasyonu böyle oluyor",
-      "title": "Koşuya Yeni Başlayanlar İçin",
+      "caption": "Aim for time, not speed in the first month. That's how the body adapts",
+      "title": "For Beginner Runners",
       "hashtags": [
-        "kosu",
-        "yenibaslayanlar",
-        "dayaniklilik"
+        "running",
+        "beginners",
+        "endurance"
       ],
-      "owner_hash": "acc_62176fac",
+      "owner_hash": "acc_40c0e3a8",
       "viewed_at": "2026-08-23T17:59:00+00:00",
       "category": null
     },
     {
-      "caption": "Çadır kurmayı öğrenmek bir akşamı kurtarıyor 🔥",
-      "title": "Arkadaşlarla Kamp Notları",
+      "caption": "Learning to pitch a tent saves the evening 🔥",
+      "title": "Camping Notes with Friends",
       "hashtags": [
-        "kamp",
-        "doga",
-        "arkadaslik"
+        "camping",
+        "nature",
+        "friendship"
       ],
-      "owner_hash": "acc_18230bd9",
+      "owner_hash": "acc_64cd6d3e",
       "viewed_at": "2026-08-16T21:17:00+00:00",
       "category": null
     },
     {
-      "caption": "Bu üç rengi bir arada kullanınca her kombin oturuyor",
-      "title": "Sonbahar Renk Paleti",
+      "caption": "When you use these three colors together, every outfit fits",
+      "title": "Autumn Color Palette",
       "hashtags": [
-        "moda",
-        "stil",
-        "sonbahar"
+        "fashion",
+        "style",
+        "autumn"
       ],
-      "owner_hash": "acc_389e7684",
+      "owner_hash": "acc_d3894090",
       "viewed_at": "2026-08-19T00:53:00+00:00",
       "category": null
     },
     {
-      "caption": "İlk ay hız değil süre hedefleyin. Vücut adaptasyonu böyle oluyor",
-      "title": "Koşuya Yeni Başlayanlar İçin",
+      "caption": "Aim for time, not speed in the first month. That's how the body adapts",
+      "title": "For Beginner Runners",
       "hashtags": [
-        "kosu",
-        "yenibaslayanlar",
-        "dayaniklilik"
+        "running",
+        "beginners",
+        "endurance"
       ],
-      "owner_hash": "acc_62176fac",
+      "owner_hash": "acc_40c0e3a8",
       "viewed_at": "2026-08-23T03:34:00+00:00",
       "category": null
     },
     {
-      "caption": "Tek parmak değişimiyle şarkının tamamı açılıyor 🎸",
-      "title": "Gitarda Bu Akoru Kaçırmayın",
+      "caption": "The whole song unlocks with a single finger change 🎸",
+      "title": "Don't Miss This Chord on Guitar",
       "hashtags": [
-        "gitar",
-        "muzik",
-        "akor"
+        "guitar",
+        "music",
+        "chord"
       ],
-      "owner_hash": "acc_b69784dc",
+      "owner_hash": "acc_e2454f2b",
       "viewed_at": "2026-08-29T18:11:00+00:00",
       "category": null
     },
     {
-      "caption": "Analog sesin farkını kulaklıkla bile duyabiliyorsunuz",
-      "title": "Vinil mi Dijital mi",
+      "caption": "You can hear the difference of analog sound even with headphones",
+      "title": "Vinyl or Digital",
       "hashtags": [
-        "muzik",
-        "vinil",
-        "plak"
+        "music",
+        "vinyl",
+        "record"
       ],
-      "owner_hash": "acc_86ec5d47",
+      "owner_hash": "acc_0627f57c",
       "viewed_at": "2026-08-20T22:34:00+00:00",
       "category": null
     },
     {
-      "caption": "24 saatlik kullanımda beklediğimden iyi çıktı 🔋",
-      "title": "Yeni Telefonun Pil Testi",
+      "caption": "It turned out better than I expected in 24-hour usage 🔋",
+      "title": "New Phone's Battery Test",
       "hashtags": [
-        "teknoloji",
-        "telefon",
-        "inceleme"
+        "technology",
+        "phone",
+        "review"
       ],
-      "owner_hash": "acc_8e7b15e5",
+      "owner_hash": "acc_fa28d9e5",
       "viewed_at": "2026-08-18T17:12:00+00:00",
       "category": null
     },
     {
-      "caption": "Tek parmak değişimiyle şarkının tamamı açılıyor 🎸",
-      "title": "Gitarda Bu Akoru Kaçırmayın",
+      "caption": "The whole song unlocks with a single finger change 🎸",
+      "title": "Don't Miss This Chord on Guitar",
       "hashtags": [
-        "gitar",
-        "muzik",
-        "akor"
+        "guitar",
+        "music",
+        "chord"
       ],
-      "owner_hash": "acc_b69784dc",
+      "owner_hash": "acc_e2454f2b",
       "viewed_at": "2026-08-17T21:52:00+00:00",
       "category": null
     },
     {
-      "caption": "Son bölüm beklediğim gibi değildi ama yolculuk güzeldi",
-      "title": "Bu Diziyi Bitirdim",
+      "caption": "The final episode wasn't what I expected but the journey was beautiful",
+      "title": "I Finished This Series",
       "hashtags": [
-        "dizi",
-        "eglence",
-        "izlenenler"
+        "series",
+        "entertainment",
+        "watched"
       ],
-      "owner_hash": "acc_3bc8ea98",
+      "owner_hash": "acc_472397fc",
       "viewed_at": "2026-08-17T00:21:00+00:00",
       "category": null
     },
     {
-      "caption": "Ekipman yok, bahane yok. Haftada 4 gün bu rutini uygula",
-      "title": "Evde 15 Dakikalık Antrenman",
+      "caption": "No equipment, no excuses. Do this routine 4 days a week",
+      "title": "15-Minute Home Workout",
       "hashtags": [
-        "evdespor",
-        "antrenman",
-        "fitnessmotivasyon"
+        "homeworkout",
+        "training",
+        "fitnessmotivation"
       ],
-      "owner_hash": "acc_308fc658",
+      "owner_hash": "acc_d466545a",
       "viewed_at": "2026-08-22T22:11:00+00:00",
       "category": null
     },
     {
-      "caption": "Son bölüm beklediğim gibi değildi ama yolculuk güzeldi",
-      "title": "Bu Diziyi Bitirdim",
+      "caption": "The final episode wasn't what I expected but the journey was beautiful",
+      "title": "I Finished This Series",
       "hashtags": [
-        "dizi",
-        "eglence",
-        "izlenenler"
+        "series",
+        "entertainment",
+        "watched"
       ],
-      "owner_hash": "acc_3bc8ea98",
+      "owner_hash": "acc_472397fc",
       "viewed_at": "2026-08-27T18:43:00+00:00",
       "category": null
     },
     {
-      "caption": "Çarkta merkezleme sandığımdan zormuş ama bağımlılık yapıyor",
-      "title": "Seramikte İlk Denemem",
+      "caption": "Centering on the wheel was harder than I thought but it's addictive",
+      "title": "My First Try in Ceramics",
       "hashtags": [
-        "seramik",
-        "elemegi",
-        "atolye"
+        "ceramics",
+        "handmade",
+        "workshop"
       ],
-      "owner_hash": "acc_466bae74",
+      "owner_hash": "acc_3affc5eb",
       "viewed_at": "2026-08-29T21:40:00+00:00",
       "category": null
     },
     {
-      "caption": "Çarkta merkezleme sandığımdan zormuş ama bağımlılık yapıyor",
-      "title": "Seramikte İlk Denemem",
+      "caption": "Centering on the wheel was harder than I thought but it's addictive",
+      "title": "My First Try in Ceramics",
       "hashtags": [
-        "seramik",
-        "elemegi",
-        "atolye"
+        "ceramics",
+        "handmade",
+        "workshop"
       ],
-      "owner_hash": "acc_466bae74",
+      "owner_hash": "acc_3affc5eb",
       "viewed_at": "2026-08-29T07:34:00+00:00",
       "category": null
     },
     {
-      "caption": "25 dakika çalış 5 dakika dinlen. Basit ama işe yarıyor 📚",
-      "title": "Ders Çalışırken Odaklanma",
+      "caption": "Work 25 mins rest 5 mins. Simple but effective 📚",
+      "title": "Focusing While Studying",
       "hashtags": [
-        "egitim",
-        "calisma",
-        "verimlilik"
+        "education",
+        "study",
+        "productivity"
       ],
-      "owner_hash": "acc_6dd440f8",
+      "owner_hash": "acc_6ccfde88",
       "viewed_at": "2026-08-17T18:38:00+00:00",
       "category": null
     },
     {
-      "caption": "25 dakika çalış 5 dakika dinlen. Basit ama işe yarıyor 📚",
-      "title": "Ders Çalışırken Odaklanma",
+      "caption": "Work 25 mins rest 5 mins. Simple but effective 📚",
+      "title": "Focusing While Studying",
       "hashtags": [
-        "egitim",
-        "calisma",
-        "verimlilik"
+        "education",
+        "study",
+        "productivity"
       ],
-      "owner_hash": "acc_6dd440f8",
+      "owner_hash": "acc_6ccfde88",
       "viewed_at": "2026-08-28T23:07:00+00:00",
       "category": null
     },
     {
-      "caption": "Final sahnesini üçüncü kez izledim, hâlâ aynı fikirdeyim 🎮",
-      "title": "Bu Oyunun Sonu Tartışılır",
+      "caption": "I watched the final scene for the third time, I still hold the same opinion 🎮",
+      "title": "The End of This Game is Debatable",
       "hashtags": [
-        "oyun",
         "gaming",
-        "inceleme"
+        "game",
+        "review"
       ],
-      "owner_hash": "acc_78615c25",
+      "owner_hash": "acc_969e9e7c",
       "viewed_at": "2026-08-28T23:17:00+00:00",
       "category": null
     },
     {
-      "caption": "Serumdan önce nemlendirici sürerseniz etkisi düşüyor ✨",
-      "title": "Cilt Bakımında Sıra Önemli",
+      "caption": "If you apply moisturizer before serum, its effect drops ✨",
+      "title": "Order Matters in Skincare",
       "hashtags": [
-        "ciltbakimi",
-        "guzellik",
-        "rutin"
+        "skincare",
+        "beauty",
+        "routine"
       ],
-      "owner_hash": "acc_f7bff2ed",
+      "owner_hash": "acc_36e1ce32",
       "viewed_at": "2026-08-24T13:12:00+00:00",
       "category": null
     },
     {
-      "caption": "Sisin içinden çıkan o manzarayı unutamıyorum ⛰️",
-      "title": "Karadeniz Yaylalarında 3 Gün",
+      "caption": "I can't forget that view emerging from the fog ⛰️",
+      "title": "3 Days in the Black Sea Highlands",
       "hashtags": [
-        "gezi",
-        "karadeniz",
-        "yayla"
+        "travel",
+        "blacksea",
+        "highlands"
       ],
-      "owner_hash": "acc_3f55e4e6",
+      "owner_hash": "acc_733c1408",
       "viewed_at": "2026-08-19T00:18:00+00:00",
       "category": null
     },
     {
-      "caption": "Telefonu yatak odasından çıkarmak en zor kısmıydı",
-      "title": "Sabah Rutinimi Değiştirdim",
+      "caption": "Getting the phone out of the bedroom was the hardest part",
+      "title": "I Changed My Morning Routine",
       "hashtags": [
-        "yasam",
-        "rutin",
-        "aliskanlik"
+        "life",
+        "routine",
+        "habit"
       ],
-      "owner_hash": "acc_155e1ad7",
+      "owner_hash": "acc_6ad5ca1a",
       "viewed_at": "2026-08-17T22:39:00+00:00",
       "category": null
     },
     {
-      "caption": "25 dakika çalış 5 dakika dinlen. Basit ama işe yarıyor 📚",
-      "title": "Ders Çalışırken Odaklanma",
+      "caption": "Work 25 mins rest 5 mins. Simple but effective 📚",
+      "title": "Focusing While Studying",
       "hashtags": [
-        "egitim",
-        "calisma",
-        "verimlilik"
+        "education",
+        "study",
+        "productivity"
       ],
-      "owner_hash": "acc_6dd440f8",
+      "owner_hash": "acc_6ccfde88",
       "viewed_at": "2026-08-25T19:08:00+00:00",
       "category": null
     },
     {
-      "caption": "Tek satırda döngü yazmanın en temiz yolu bu",
-      "title": "Python'da Liste Kavrama",
+      "caption": "This is the cleanest way to write a loop in a single line",
+      "title": "List Comprehension in Python",
       "hashtags": [
         "python",
-        "yazilim",
-        "kodlama"
+        "software",
+        "coding"
       ],
-      "owner_hash": "acc_93798ff3",
+      "owner_hash": "acc_fe3775bc",
       "viewed_at": "2026-08-19T10:12:00+00:00",
       "category": null
     },
     {
-      "caption": "Kağıdı ıslatmadan önce açıyı ayarlamak çok önemli 🎨",
-      "title": "Suluboyada Gökyüzü Geçişi",
+      "caption": "Setting the angle before wetting the paper is crucial 🎨",
+      "title": "Sky Transition in Watercolor",
       "hashtags": [
-        "suluboya",
-        "resim",
-        "sanat"
+        "watercolor",
+        "painting",
+        "art"
       ],
-      "owner_hash": "acc_384a9fcd",
+      "owner_hash": "acc_1c9add12",
       "viewed_at": "2026-08-22T02:53:00+00:00",
       "category": null
     },
     {
-      "caption": "Bugün mutfakta 20 dakikada hazırlanan bir tarif var 😍 Malzemeler basit, sonuç inanılmaz lezzetli!",
-      "title": "20 Dakikada Pratik Akşam Yemeği Tarifi",
+      "caption": "Today in the kitchen there is a recipe ready in 20 minutes 😍 Ingredients are simple, the result is incredibly delicious!",
+      "title": "20-Minute Quick Dinner Recipe",
       "hashtags": [
-        "tarifler",
-        "pratikyemek",
-        "mutfaktanhaberler"
+        "recipes",
+        "quickmeal",
+        "kitchennews"
       ],
-      "owner_hash": "acc_f92c42a8",
+      "owner_hash": "acc_62316ba0",
       "viewed_at": "2026-08-17T10:43:00+00:00",
       "category": null
     },
     {
-      "caption": "Serumdan önce nemlendirici sürerseniz etkisi düşüyor ✨",
-      "title": "Cilt Bakımında Sıra Önemli",
+      "caption": "If you apply moisturizer before serum, its effect drops ✨",
+      "title": "Order Matters in Skincare",
       "hashtags": [
-        "ciltbakimi",
-        "guzellik",
-        "rutin"
+        "skincare",
+        "beauty",
+        "routine"
       ],
-      "owner_hash": "acc_f7bff2ed",
+      "owner_hash": "acc_36e1ce32",
       "viewed_at": "2026-08-17T00:48:00+00:00",
       "category": null
     },
     {
-      "caption": "Tek parmak değişimiyle şarkının tamamı açılıyor 🎸",
-      "title": "Gitarda Bu Akoru Kaçırmayın",
+      "caption": "The whole song unlocks with a single finger change 🎸",
+      "title": "Don't Miss This Chord on Guitar",
       "hashtags": [
-        "gitar",
-        "muzik",
-        "akor"
+        "guitar",
+        "music",
+        "chord"
       ],
-      "owner_hash": "acc_b69784dc",
+      "owner_hash": "acc_e2454f2b",
       "viewed_at": "2026-08-18T22:18:00+00:00",
       "category": null
     },
     {
-      "caption": "İlk ay hız değil süre hedefleyin. Vücut adaptasyonu böyle oluyor",
-      "title": "Koşuya Yeni Başlayanlar İçin",
+      "caption": "Aim for time, not speed in the first month. That's how the body adapts",
+      "title": "For Beginner Runners",
       "hashtags": [
-        "kosu",
-        "yenibaslayanlar",
-        "dayaniklilik"
+        "running",
+        "beginners",
+        "endurance"
       ],
-      "owner_hash": "acc_62176fac",
+      "owner_hash": "acc_40c0e3a8",
       "viewed_at": "2026-08-21T16:27:00+00:00",
       "category": null
     },
     {
-      "caption": "Bugün mutfakta 20 dakikada hazırlanan bir tarif var 😍 Malzemeler basit, sonuç inanılmaz lezzetli!",
-      "title": "20 Dakikada Pratik Akşam Yemeği Tarifi",
+      "caption": "Today in the kitchen there is a recipe ready in 20 minutes 😍 Ingredients are simple, the result is incredibly delicious!",
+      "title": "20-Minute Quick Dinner Recipe",
       "hashtags": [
-        "tarifler",
-        "pratikyemek",
-        "mutfaktanhaberler"
+        "recipes",
+        "quickmeal",
+        "kitchennews"
       ],
-      "owner_hash": "acc_f92c42a8",
+      "owner_hash": "acc_62316ba0",
       "viewed_at": "2026-08-26T21:54:00+00:00",
       "category": null
     },
     {
-      "caption": "Tek parmak değişimiyle şarkının tamamı açılıyor 🎸",
-      "title": "Gitarda Bu Akoru Kaçırmayın",
+      "caption": "The whole song unlocks with a single finger change 🎸",
+      "title": "Don't Miss This Chord on Guitar",
       "hashtags": [
-        "gitar",
-        "muzik",
-        "akor"
+        "guitar",
+        "music",
+        "chord"
       ],
-      "owner_hash": "acc_b69784dc",
+      "owner_hash": "acc_e2454f2b",
       "viewed_at": "2026-08-25T08:32:00+00:00",
       "category": null
     },
     {
-      "caption": "Tek parmak değişimiyle şarkının tamamı açılıyor 🎸",
-      "title": "Gitarda Bu Akoru Kaçırmayın",
+      "caption": "The whole song unlocks with a single finger change 🎸",
+      "title": "Don't Miss This Chord on Guitar",
       "hashtags": [
-        "gitar",
-        "muzik",
-        "akor"
+        "guitar",
+        "music",
+        "chord"
       ],
-      "owner_hash": "acc_b69784dc",
+      "owner_hash": "acc_e2454f2b",
       "viewed_at": "2026-08-24T19:21:00+00:00",
       "category": null
     },
     {
-      "caption": "24 saatlik kullanımda beklediğimden iyi çıktı 🔋",
-      "title": "Yeni Telefonun Pil Testi",
+      "caption": "It turned out better than I expected in 24-hour usage 🔋",
+      "title": "New Phone's Battery Test",
       "hashtags": [
-        "teknoloji",
-        "telefon",
-        "inceleme"
+        "technology",
+        "phone",
+        "review"
       ],
-      "owner_hash": "acc_8e7b15e5",
+      "owner_hash": "acc_fa28d9e5",
       "viewed_at": "2026-08-18T22:56:00+00:00",
       "category": null
     }
   ],
   "top_hashtags": [
     {
-      "tag": "muzik",
+      "tag": "music",
       "count": 10
     },
     {
-      "tag": "gitar",
+      "tag": "guitar",
       "count": 9
     },
     {
-      "tag": "akor",
+      "tag": "chord",
       "count": 9
     },
     {
-      "tag": "rutin",
+      "tag": "routine",
       "count": 6
     },
     {
-      "tag": "ciltbakimi",
+      "tag": "skincare",
       "count": 5
     },
     {
-      "tag": "guzellik",
+      "tag": "beauty",
       "count": 5
     },
     {
-      "tag": "seramik",
+      "tag": "ceramics",
       "count": 5
     },
     {
-      "tag": "elemegi",
+      "tag": "handmade",
       "count": 5
     },
     {
-      "tag": "atolye",
+      "tag": "workshop",
       "count": 5
     },
     {
-      "tag": "kamp",
+      "tag": "camping",
       "count": 5
     },
     {
-      "tag": "doga",
+      "tag": "nature",
       "count": 5
     },
     {
-      "tag": "arkadaslik",
+      "tag": "friendship",
       "count": 5
     },
     {
-      "tag": "gezi",
+      "tag": "travel",
       "count": 5
     },
     {
-      "tag": "karadeniz",
+      "tag": "blacksea",
       "count": 5
     },
     {
-      "tag": "yayla",
+      "tag": "highlands",
       "count": 5
     }
   ],
   "top_accounts": [
     {
-      "account_hash": "acc_b69784dc",
+      "account_hash": "acc_e2454f2b",
       "view_count": 9,
       "category": null
     },
     {
-      "account_hash": "acc_f7bff2ed",
+      "account_hash": "acc_36e1ce32",
       "view_count": 5,
       "category": null
     },
     {
-      "account_hash": "acc_466bae74",
+      "account_hash": "acc_3affc5eb",
       "view_count": 5,
       "category": null
     },
     {
-      "account_hash": "acc_18230bd9",
+      "account_hash": "acc_64cd6d3e",
       "view_count": 5,
       "category": null
     },
     {
-      "account_hash": "acc_3f55e4e6",
+      "account_hash": "acc_733c1408",
       "view_count": 5,
       "category": null
     },
     {
-      "account_hash": "acc_384a9fcd",
+      "account_hash": "acc_1c9add12",
       "view_count": 4,
       "category": null
     },
     {
-      "account_hash": "acc_62176fac",
+      "account_hash": "acc_40c0e3a8",
       "view_count": 4,
       "category": null
     },
     {
-      "account_hash": "acc_f92c42a8",
+      "account_hash": "acc_62316ba0",
       "view_count": 3,
       "category": null
     },
     {
-      "account_hash": "acc_3bc8ea98",
+      "account_hash": "acc_472397fc",
       "view_count": 3,
       "category": null
     },
     {
-      "account_hash": "acc_93798ff3",
+      "account_hash": "acc_fe3775bc",
       "view_count": 3,
       "category": null
     },
     {
-      "account_hash": "acc_6dd440f8",
+      "account_hash": "acc_6ccfde88",
       "view_count": 3,
       "category": null
     },
     {
-      "account_hash": "acc_389e7684",
+      "account_hash": "acc_d3894090",
       "view_count": 2,
       "category": null
     },
     {
-      "account_hash": "acc_308fc658",
+      "account_hash": "acc_d466545a",
       "view_count": 2,
       "category": null
     },
     {
-      "account_hash": "acc_78615c25",
+      "account_hash": "acc_969e9e7c",
       "view_count": 2,
       "category": null
     },
     {
-      "account_hash": "acc_8e7b15e5",
+      "account_hash": "acc_fa28d9e5",
       "view_count": 2,
       "category": null
     },
     {
-      "account_hash": "acc_89101e1e",
+      "account_hash": "acc_ef77a2d6",
       "view_count": 1,
       "category": null
     },
     {
-      "account_hash": "acc_86ec5d47",
+      "account_hash": "acc_0627f57c",
       "view_count": 1,
       "category": null
     },
     {
-      "account_hash": "acc_155e1ad7",
+      "account_hash": "acc_6ad5ca1a",
       "view_count": 1,
       "category": null
     }
@@ -912,11 +912,11 @@
     "peak_hour": 22
   },
   "data_notes": {
-    "source": "sentetik_instagram_kayitli",
+    "source": "synthetic_instagram_records",
     "limitations": [
-      "Kayıtlar sentetiktir, gerçek kullanıcı verisi değildir.",
-      "Hesap adları SHA-256 ile rumuzlanmıştır.",
-      "category alanı boş; C dolduracak."
+      "Records are synthetic, not real user data.",
+      "Account names are pseudonymized with SHA-256.",
+      "category field is empty; to be filled."
     ]
   }
 }

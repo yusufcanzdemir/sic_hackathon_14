@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1",
   "user_id": "anon_01",
-  "generated_at": "2026-08-30T11:26:52.371744+00:00",
+  "generated_at": "2026-08-30T15:17:06.657051+00:00",
   "attention": {
     "total_posts": 60,
     "unique_accounts": 18,
@@ -24,116 +24,116 @@
   },
   "top_hashtags": [
     {
-      "tag": "muzik",
+      "tag": "music",
       "count": 10
     },
     {
-      "tag": "gitar",
+      "tag": "guitar",
       "count": 9
     },
     {
-      "tag": "akor",
+      "tag": "chord",
       "count": 9
     },
     {
-      "tag": "rutin",
+      "tag": "routine",
       "count": 6
     },
     {
-      "tag": "ciltbakimi",
+      "tag": "skincare",
       "count": 5
     },
     {
-      "tag": "guzellik",
+      "tag": "beauty",
       "count": 5
     },
     {
-      "tag": "seramik",
+      "tag": "ceramics",
       "count": 5
     },
     {
-      "tag": "elemegi",
+      "tag": "handmade",
       "count": 5
     },
     {
-      "tag": "atolye",
+      "tag": "workshop",
       "count": 5
     },
     {
-      "tag": "kamp",
+      "tag": "camping",
       "count": 5
     }
   ],
   "ornek_gonderiler": [
     {
-      "title": "Sonbahar Renk Paleti",
+      "title": "Autumn Color Palette",
       "hashtags": [
-        "moda",
-        "stil",
-        "sonbahar"
+        "fashion",
+        "style",
+        "autumn"
       ],
       "viewed_at": "2026-08-29T19:59:00+00:00"
     },
     {
-      "title": "Cilt Bakımında Sıra Önemli",
+      "title": "Order Matters in Skincare",
       "hashtags": [
-        "ciltbakimi",
-        "guzellik",
-        "rutin"
+        "skincare",
+        "beauty",
+        "routine"
       ],
       "viewed_at": "2026-08-26T20:11:00+00:00"
     },
     {
-      "title": "Fırında Tavuk Nasıl Yapılır",
+      "title": "How to Make Baked Chicken",
       "hashtags": [
-        "yemektarifi",
-        "firindatavuk",
-        "aksamyemegi"
+        "recipe",
+        "bakedchicken",
+        "dinner"
       ],
       "viewed_at": "2026-08-25T23:28:00+00:00"
     },
     {
-      "title": "20 Dakikada Pratik Akşam Yemeği Tarifi",
+      "title": "20-Minute Quick Dinner Recipe",
       "hashtags": [
-        "tarifler",
-        "pratikyemek",
-        "mutfaktanhaberler"
+        "recipes",
+        "quickmeal",
+        "kitchennews"
       ],
       "viewed_at": "2026-08-28T17:28:00+00:00"
     },
     {
-      "title": "Suluboyada Gökyüzü Geçişi",
+      "title": "Sky Transition in Watercolor",
       "hashtags": [
-        "suluboya",
-        "resim",
-        "sanat"
+        "watercolor",
+        "painting",
+        "art"
       ],
       "viewed_at": "2026-08-22T23:59:00+00:00"
     },
     {
-      "title": "Seramikte İlk Denemem",
+      "title": "My First Try in Ceramics",
       "hashtags": [
-        "seramik",
-        "elemegi",
-        "atolye"
+        "ceramics",
+        "handmade",
+        "workshop"
       ],
       "viewed_at": "2026-08-16T01:49:00+00:00"
     },
     {
-      "title": "Gitarda Bu Akoru Kaçırmayın",
+      "title": "Don't Miss This Chord on Guitar",
       "hashtags": [
-        "gitar",
-        "muzik",
-        "akor"
+        "guitar",
+        "music",
+        "chord"
       ],
       "viewed_at": "2026-08-19T23:03:00+00:00"
     },
     {
-      "title": "Gitarda Bu Akoru Kaçırmayın",
+      "title": "Don't Miss This Chord on Guitar",
       "hashtags": [
-        "gitar",
-        "muzik",
-        "akor"
+        "guitar",
+        "music",
+        "chord"
       ],
       "viewed_at": "2026-08-28T21:21:00+00:00"
     }
@@ -144,8 +144,8 @@
     "tek_temada_yogunlasma"
   ],
   "notes": [
-    "Bütün sayısal değerler kodda hesaplandı; model hesap yapmamalı.",
-    "Hesap adları rumuzlanmıştır, açık kullanıcı adı yoktur.",
-    "Bu özet teşhis değildir; yalnızca kullanım desenidir."
+    "All numeric values were calculated in code; model should not calculate.",
+    "Account names are pseudonymized, no plaintext usernames.",
+    "This summary is not a diagnosis; it's merely a usage pattern."
   ]
 }
