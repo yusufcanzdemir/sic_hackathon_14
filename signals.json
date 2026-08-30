@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "user_id": "anon_01",
+  "generated_at": "2026-08-29T09:19:29.030310+00:00",
+  "attention": {
+    "total_views": 841,
+    "unique_accounts": 35,
+    "night_ratio": 0.201,
+    "peak_hour": 22,
+    "top_hours": [
+      {
+        "hour": 22,
+        "views": 109
+      },
+      {
+        "hour": 21,
+        "views": 83
+      },
+      {
+        "hour": 23,
+        "views": 79
+      }
+    ]
+  },
+  "intent": {
+    "sessions_count": 51,
+    "median_gap_minutes": 21,
+    "mean_gap_minutes": 23.1,
+    "worst_session": {
+      "app": "tiktok",
+      "stated_intent": "sadece bakıyordum",
+      "intended_minutes": 10,
+      "actual_minutes": 79,
+      "opened_at": "2026-08-21T16:45:00+00:00"
+    },
+    "gap_by_app": {
+      "instagram": 21.4,
+      "tiktok": 24.6,
+      "youtube": 22.8
+    },
+    "worst_hours": [
+      {
+        "hour": 16,
+        "mean_gap_minutes": 41
+      },
+      {
+        "hour": 18,
+        "mean_gap_minutes": 32.7
+      },
+      {
+        "hour": 8,
+        "mean_gap_minutes": 32
+      }
+    ],
+    "most_common_intent": "sadece bakıyordum"
+  },
+  "interests": [
+    "Fitness",
+    "Moda",
+    "Seyahat",
+    "Yemek tarifleri",
+    "Teknoloji",
+    "Kişisel gelişim",
+    "Uyku",
+    "Kariyer"
+  ],
+  "top_accounts": [
+    {
+      "account_hash": "acc_247dbf05",
+      "view_count": 31,
+      "category": null
+    },
+    {
+      "account_hash": "acc_17a95f50",
+      "view_count": 31,
+      "category": null
+    },
+    {
+      "account_hash": "acc_f9208c96",
+      "view_count": 31,
+      "category": null
+    },
+    {
+      "account_hash": "acc_bbaccd25",
+      "view_count": 30,
+      "category": null
+    },
+    {
+      "account_hash": "acc_f9f18df5",
+      "view_count": 29,
+      "category": null
+    },
+    {
+      "account_hash": "acc_0c1297ef",
+      "view_count": 29,
+      "category": null
+    },
+    {
+      "account_hash": "acc_532352c4",
+      "view_count": 29,
+      "category": null
+    },
+    {
+      "account_hash": "acc_78f86a3d",
+      "view_count": 28,
+      "category": null
+    }
+  ],
+  "flags": [
+    "gece_agirlikli_kullanim",
+    "yatis_oncesi_yogunlasma",
+    "dar_hesap_dongusu",
+    "niyet_farki_yuksek",
+    "tek_oturum_asiri_uzun"
+  ],
+  "notes": [
+    "Bütün sayısal değerler kodda hesaplandı; model hesap yapmamalı.",
+    "Hesap adları rumuzlanmıştır.",
+    "Bu özet teşhis değildir; yalnızca kullanım desenidir."
+  ]
+}

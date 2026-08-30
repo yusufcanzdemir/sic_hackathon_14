@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "user_id": "anon_01",
+  "generated_at": "2026-08-29T09:19:02.755056+00:00",
+  "meta_interests": [
+    "Fitness",
+    "Moda",
+    "Seyahat",
+    "Yemek tarifleri",
+    "Teknoloji",
+    "Kişisel gelişim",
+    "Uyku",
+    "Kariyer"
+  ],
+  "top_accounts": [
+    {
+      "account_hash": "acc_247dbf05",
+      "view_count": 31,
+      "category": null
+    },
+    {
+      "account_hash": "acc_17a95f50",
+      "view_count": 31,
+      "category": null
+    },
+    {
+      "account_hash": "acc_f9208c96",
+      "view_count": 31,
+      "category": null
+    },
+    {
+      "account_hash": "acc_bbaccd25",
+      "view_count": 30,
+      "category": null
+    },
+    {
+      "account_hash": "acc_f9f18df5",
+      "view_count": 29,
+      "category": null
+    },
+    {
+      "account_hash": "acc_0c1297ef",
+      "view_count": 29,
+      "category": null
+    },
+    {
+      "account_hash": "acc_532352c4",
+      "view_count": 29,
+      "category": null
+    },
+    {
+      "account_hash": "acc_78f86a3d",
+      "view_count": 28,
+      "category": null
+    },
+    {
+      "account_hash": "acc_f934ec38",
+      "view_count": 28,
+      "category": null
+    },
+    {
+      "account_hash": "acc_104f0428",
+      "view_count": 28,
+      "category": null
+    },
+    {
+      "account_hash": "acc_d2c3da01",
+      "view_count": 27,
+      "category": null
+    },
+    {
+      "account_hash": "acc_9c75cfee",
+      "view_count": 27,
+      "category": null
+    },
+    {
+      "account_hash": "acc_5593e3e6",
+      "view_count": 26,
+      "category": null
+    },
+    {
+      "account_hash": "acc_ad60d15b",
+      "view_count": 25,
+      "category": null
+    },
+    {
+      "account_hash": "acc_c476eefc",
+      "view_count": 25,
+      "category": null
+    },
+    {
+      "account_hash": "acc_0146a490",
+      "view_count": 24,
+      "category": null
+    },
+    {
+      "account_hash": "acc_764fc703",
+      "view_count": 24,
+      "category": null
+    },
+    {
+      "account_hash": "acc_f7fa0661",
+      "view_count": 24,
+      "category": null
+    },
+    {
+      "account_hash": "acc_e6b834a1",
+      "view_count": 23,
+      "category": null
+    },
+    {
+      "account_hash": "acc_8d08fd91",
+      "view_count": 23,
+      "category": null
+    },
+    {
+      "account_hash": "acc_244c922e",
+      "view_count": 23,
+      "category": null
+    },
+    {
+      "account_hash": "acc_5c319551",
+      "view_count": 23,
+      "category": null
+    },
+    {
+      "account_hash": "acc_cc33d9cf",
+      "view_count": 22,
+      "category": null
+    },
+    {
+      "account_hash": "acc_2b54b5d9",
+      "view_count": 21,
+      "category": null
+    },
+    {
+      "account_hash": "acc_bc854f04",
+      "view_count": 21,
+      "category": null
+    }
+  ],
+  "hourly_distribution": {
+    "0": 37,
+    "1": 31,
+    "2": 22,
+    "3": 5,
+    "4": 4,
+    "5": 4,
+    "6": 12,
+    "7": 14,
+    "8": 23,
+    "9": 16,
+    "10": 16,
+    "11": 31,
+    "12": 45,
+    "13": 25,
+    "14": 16,
+    "15": 33,
+    "16": 35,
+    "17": 52,
+    "18": 38,
+    "19": 54,
+    "20": 57,
+    "21": 83,
+    "22": 109,
+    "23": 79
+  },
+  "summary": {
+    "total_views": 841,
+    "unique_accounts": 35,
+    "night_ratio": 0.201,
+    "peak_hour": 22
+  },
+  "data_notes": {
+    "source": "sahte_veri",
+    "limitations": [
+      "İçerik metni export'ta yok; sadece hesap adı ve zaman var.",
+      "Hesap adları geri döndürülemez şekilde rumuzlandı.",
+      "category alanı boş; C dolduracak."
+    ]
+  }
+}
