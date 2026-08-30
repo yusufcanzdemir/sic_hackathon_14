@@ -1,4 +1,3 @@
-# app.py
 import streamlit as st
 import json
 import datetime
@@ -8,12 +7,8 @@ import requests
 import os
 from streamlit_lottie import st_lottie
 
-# Yapay zeka fonksiyonlarımızı kendi modülümüzden çağırıyoruz
 from ai.api import ai_analiz_sohbeti_baslat, ai_analizi_revize_et, ai_takvim_cagrisi
 
-# ==========================================
-# 0. YARDIMCI FONKSİYONLAR VE SABİTLER
-# ==========================================
 AYLAR = ["", "Ocak", "Subat", "Mart", "Nisan", "Mayis", "Haziran", "Temmuz", "Agustos", "Eylul", "Ekim", "Kasim", "Aralik"]
 BUGUN = datetime.date(2026, 8, 29)
 NO_BAR = {'displayModeBar': False}
@@ -63,19 +58,13 @@ def daktilo_efekti(metin, hiz=0.015):
         yield harf
         time.sleep(hiz)
 
-# ==========================================
-# 1. SAYFA AYARLARI VE CSS
-# ==========================================
-st.set_page_config(page_title="Kaydırma Arkeolojisi", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Find your offline joy instead.", layout="wide", initial_sidebar_state="collapsed")
 
 css_yolu = os.path.join(".streamlit", "style.css")
 if os.path.exists(css_yolu):
     with open(css_yolu) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-# ==========================================
-# 2. DURUM YÖNETİMİ (SESSION STATE)
-# ==========================================
 if "adim" not in st.session_state:
     st.session_state.adim = 0
     
@@ -88,14 +77,10 @@ varsayilan_stateler = {
 for k, v in varsayilan_stateler.items(): 
     st.session_state.setdefault(k, v)
 
-# Üst Başlık
-st.markdown("<h2 style='text-align: center; color: #008751; margin-bottom: 0;'>Kaydırma Arkeolojisi</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: #008751; margin-bottom: 0;'>Find your offline joy instead.</h2>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #64748b; font-size:18px; margin-top: 5px;'>Dijital tüketim alışkanlıklarınızı keşfedin ve yönetin.</p>", unsafe_allow_html=True)
 st.markdown("<br>", unsafe_allow_html=True)
 
-# ==========================================
-# ADIM 0: VERİ YÜKLEME
-# ==========================================
 st.markdown("### Adım 1: Veri Kaynağı")
 st.write("Sosyal medya geçmişinizi (JSON) yükleyerek karanlıkta kalan alışkanlıklarınızı gün yüzüne çıkarın.")
 
@@ -109,9 +94,6 @@ if yf:
         st.session_state.adim = 1
         st.rerun()
 
-# ==========================================
-# ADIM 1: PROFİL GÖRÜNÜMÜ & FİLTRELER
-# ==========================================
 if st.session_state.adim >= 1:
     st.divider()
     st.markdown("### Profilinle Yüzleş")
@@ -159,9 +141,6 @@ if st.session_state.adim >= 1:
             st.session_state.adim = 2
             st.rerun()
 
-# ==========================================
-# ADIM 2: AI ANALİZİ VE HAFIZALI FEEDBACK
-# ==========================================
 if st.session_state.adim >= 2:
     st.divider()
     st.markdown("### Yapay Zeka Davranış Analizi")
@@ -173,7 +152,6 @@ if st.session_state.adim >= 2:
             if ai_animasyon: st_lottie(ai_animasyon, height=200, key="ai_loading")
             else: st.info("Gemini Yapay Zeka verilerinizi inceliyor...")
             
-            # API ÇAĞRISI (HAFIZAYI KAYDET)
             sonuc, gecmis = ai_analiz_sohbeti_baslat(st.session_state.veri, st.session_state.tercihler)
             st.session_state.analiz = sonuc
             st.session_state.chat_history = gecmis
@@ -192,7 +170,6 @@ if st.session_state.adim >= 2:
         st.info(f"**Temel Bulgu:**\n\n{s.get('bulgu', '')}")
         st.success(f"**Tavsiye Edilen Eylem:**\n\n{s.get('eylem', '')}")
     
-    # GERİ BİLDİRİM (FEEDBACK) SİSTEMİ
     st.markdown("#### Öneriyi Nasıl Buldun?")
     sentiment_mapping = ["Çok Kötü (1 Yıldız)", "Kötü (2 Yıldız)", "İdare Eder (3 Yıldız)", "İyi (4 Yıldız)", "Mükemmel! (5 Yıldız)"]
     selected = st.feedback("stars", key="star_feedback")
@@ -200,7 +177,6 @@ if st.session_state.adim >= 2:
     if selected is not None:
         st.markdown(f"**Puanın:** {sentiment_mapping[selected]}")
         
-        # 4 veya 5 yıldız vermediyse yenisini isteme hakkı sun
         if selected < 3:
             st.warning("Görünüşe göre bu eylemi pek benimsemedin. Yapay Zeka eski söylediklerini unutmadan sana yeni bir eylem bulabilir.")
             revize_talebi = st.text_input("Nasıl bir şey istersin? (Örn: Dışarı çıkmak istemiyorum, evde bir aktivite öner)")
@@ -212,21 +188,16 @@ if st.session_state.adim >= 2:
                     st.session_state.analiz = yeni_sonuc
                     st.session_state.chat_history = yeni_gecmis
                     
-                    # Feedback kutusunu yeni cevap için sıfırla
                     del st.session_state["star_feedback"]
-                    st.session_state.analiz_yazildi = False # Efekti tekrar oynat
+                    st.session_state.analiz_yazildi = False 
                     st.rerun()
 
-    # Eğer bir analiz mevcutsa Takvim'e geçişi göster
     if st.session_state.adim == 2 and st.session_state.analiz is not None:
         st.markdown("<br>", unsafe_allow_html=True)
         if st.button("Bu Eylemi Seçtim, 21 Günlük Programımı Oluştur", type="primary", use_container_width=True):
             st.session_state.adim = 3
             st.rerun()
 
-# ==========================================
-# ADIM 3: 21 GÜNLÜK TAKVİM
-# ==========================================
 if st.session_state.adim >= 3:
     st.divider()
     st.markdown("### 21 Günlük Yol Haritası")
@@ -260,10 +231,6 @@ if st.session_state.adim >= 3:
     
     st.markdown("<br>", unsafe_allow_html=True)
 
-    # Faz sınırlarını AI'ın döndürdüğü gerçek "gun" değerlerinden kümülatif
-    # olarak hesaplıyoruz (sabit 3/10 eşiği yerine). Böylece üstteki faz
-    # başlıkları ile alttaki 21 günlük gridin renk/etiketleri her zaman
-    # birbiriyle tutarlı olur, AI farklı gün dağılımı döndürse bile.
     faz_bitisleri = []
     kumulatif = 0
     for f in st.session_state.takvim:
