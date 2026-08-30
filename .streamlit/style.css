@@ -1,0 +1,58 @@
+/* =========================================
+   1. STREAMLIT KALINTILARINI GİZLEME
+   ========================================= */
+/* Sağ üstteki hamburger menüyü gizle */
+[data-testid="stHeader"] {
+    visibility: hidden;
+}
+
+/* En alttaki "Made with Streamlit" yazısını gizle */
+footer {
+    visibility: hidden;
+}
+
+/* Sayfanın en üstündeki gereksiz devasa boşluğu daralt */
+[data-testid="stAppViewBlockContainer"] {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* =========================================
+   2. NEUMORPHISM & KART (CARD) TASARIMI
+   ========================================= */
+/* Metrik Kutuları (Toplam İçerik, En Yoğun Saat vs.) */
+[data-testid="stMetric"] {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 16px; /* Oval köşeler */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Çok yumuşak bir gölge */
+    border: 1px solid rgba(0, 0, 0, 0.02); /* Çok ince, şeffaf bir sınır */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animasyon hazırlığı */
+}
+
+/* Metrik kutularının üzerine fareyle gelince (Hover) hafif havaya kalkma efekti */
+[data-testid="stMetric"]:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 135, 81, 0.15); /* config.toml'daki ana yeşil rengin gölgesi */
+}
+
+/* Bilgi ve Başarı Kutuları (st.info, st.success) */
+[data-testid="stAlert"] {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+/* =========================================
+   3. BUTONLARI CANLANDIRMA
+   ========================================= */
+.stButton > button {
+    border-radius: 12px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    transform: scale(1.02); /* Butona tıklamadan önce hafif büyüme efekti */
+}
